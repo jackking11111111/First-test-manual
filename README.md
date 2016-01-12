@@ -4,13 +4,13 @@
 
 Welcome to the Princeton Housing Repository
 
---------
+
 
 ### Main Goals
 
 The purpose of this project was to build a website to ease the application process of affordable housing for family in need in Princeton area. Develop technologies and new methodologies to efficiently identify and classify applicants, provide information/resources on different processes, list of agencies, types of services and progress of applications.
 
---------
+
 ### Project Map
 
 Github Repo: Place for holding files and analysis results.
@@ -28,19 +28,18 @@ https://codeforprinceton.slack.com/files/jackking11111111/F0J8Z2BMZ/affordable_h
 Website:  in development.
 
 
-***********************************************
 
 ### Data sets and information
 
-***********************************************
+
 
 ### Ideas
 
-***********************************************
+
 
 ### Programming Languages
 
-***********************************************
+
 
 ### The team
 Kristen -- Project Lead
