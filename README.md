@@ -13,19 +13,19 @@ The purpose of this project was to build a website to ease the application proce
 
 ### Project Map
 
-Github Repo: Place for holding files and analysis results.
+Github Repo: Place for holding files and analysis results.     
 https://github.com/codeforprinceton/ptonAffordableHousing
 
-Slack: Communication tool/channel. 
+Slack: Communication tool/channel.    
 https://codeforprinceton.slack.com/messages/affordable_housing/files/
 
-Meetup: Place for physical meeting.
+Meetup: Place for physical meeting.   
 http://www.meetup.com/codeforprinceton/events/227178389/
 
-Project Map Chart: 
+Project Map Chart:     
 https://codeforprinceton.slack.com/files/jackking11111111/F0J8Z2BMZ/affordable_housing.jpg
 
-Website:  in development.
+Website:  in development.  
 
 
 
