@@ -125,14 +125,17 @@
   <script>
   $(document).ready(function() {
     $("#owl-demo").owlCarousel({
-      autoPlay : 3000,
-      stopOnHover : true,
+      autoPlay : 4000,
+      stopOnHover:false,
+      navigationText:["<---","--->"],
+      paginationNumbers:true,
+      rewindNav:true,
       navigation:true,
-      paginationSpeed : 1000,
+      paginationSpeed :1000,
       goToFirstSpeed : 2000,
       singleItem : true,
-      autoHeight : true,
-      transitionStyle:"fade"
+      autoHeight : false,
+      transitionStyle:"fadeUp"
     });
   });
   </script>
@@ -147,19 +150,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="image\feature1.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <img class="img-circle" src="image\sas.jpg" alt="Generic placeholder image" width="200" height="140">
+          <h2>SAS</h2>
+          <p>"Analytics has been our business for almost 40 years and so uniquely we have the complete solution stack to enable you to transform data into insight into action." --SAS</p>
+          <p><a class="btn btn-default" href="#" role="button">SAS Projects &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="image\rstudio.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>R Studio</h2>
+          <p>"During the last decade, the momentum coming from both academia and industry has lifted the R programming language to become the single most important tool for computational statistics, visualization and data science. "</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img  src="image\ms.png" alt="Generic placeholder image" width="220" height="140">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -177,7 +180,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="image\feature1.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yGGS4lNCxJc?autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
 
@@ -189,7 +192,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TR2bHSJ_eck" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
 
