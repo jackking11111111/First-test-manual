@@ -4,6 +4,12 @@
  */
 
 /* clearfix */
+.owl-carousel{
+	-webkit-box-shadow: 3px 9px 15px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 9px 15px 2px rgba(0,0,0,0.75);
+	box-shadow: 3px 9px 15px 2px rgba(0,0,0,0.75);
+}
+
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -11,15 +17,17 @@
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
+
 }
 /* display none until init */
 .owl-carousel{
 	display: none;
 	position: relative;
-	width: 100%;
+	width: 95%;
 	-ms-touch-action: pan-y;
-	margin-top:49px;
+	margin-top:80px;
 	margin-bottom:60px;
+
 }
 .owl-carousel .owl-wrapper{
 	display: none;
@@ -30,6 +38,7 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	  border-bottom-color: red !important;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
