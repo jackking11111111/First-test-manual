@@ -15,7 +15,7 @@ body {
   }*/
 .footer {
   position: absolute;
-  width: auto;
+  width:auto;
   /* Set the fixed height of the footer here */
   height: 40px;
   background-color:rgba( 38, 109, 250,0.6);
